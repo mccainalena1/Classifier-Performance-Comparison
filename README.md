@@ -1,49 +1,55 @@
-# Classifier Performance Comparison
+# 📦 Classifier Performance Comparison
 
-Supervised classifier benchmark on the **20 Newsgroups** dataset. 
-Trains and evaluates multiple models and reports metrics and figures.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
+[![Python](https://img.shields.io/badge/Python-3.8+-blue)]()  
+[![Jupyter](https://img.shields.io/badge/Notebook-Jupyter-orange)]()  
 
-## Repository Structure
+## 📖 Project Overview  
+Evaluation and comparison of multiple machine learning classifiers on benchmark datasets. Metrics such as accuracy, precision, recall, and F1-score are analyzed to highlight trade-offs between models.  
+
+## 📂 Repository Structure  
 ```
-.
-├── src/
-│   └── assignment2.py
-├── data/
-│   └── 2Newsgroups/
-├── results/
-│   ├── Evaluation.pdf
-│   ├── Figure_1.png
-│   ├── KNN.txt
-│   ├── NB.txt
-│   └── SVM.txt
-├── docs/
-│   ├── asg2-2023.pdf
-│   └── asg2.pdf
-├── requirements.txt
-├── LICENSE
-└── .gitignore
-```
+├── src/           # Source code  
+├── notebooks/     # Jupyter notebooks (if applicable)  
+├── data/          # Input datasets or links to data sources  
+├── results/       # Reports, visualizations, slides  
+├── figures/       # Images/plots  
+├── requirements.txt  
+├── LICENSE  
+└── README.md  
+```  
 
-## Setup
+## ⚡ Quickstart  
 ```bash
-python -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
+git clone https://github.com/mccainalena1/Classifier-Performance-Comparison.git
+cd Classifier-Performance-Comparison
 pip install -r requirements.txt
+jupyter notebook
 ```
 
-## Usage
-```bash
-python src/assignment2.py
-```
+## 📊 Data  
+Brief description of datasets used (links or included files).  
 
-## Data
-The project uses the preprocessed **20 Newsgroups** files located in `data/2Newsgroups/`.
+## 🧠 Modeling Approach  
+Outline methods, algorithms, or models applied.  
 
-## Results
-Evaluation artifacts are in `results/`:
-- `Evaluation.pdf` – summary write‑up
-- `KNN.txt`, `NB.txt`, `SVM.txt` – classifier metrics
-- `Figure_1.png` – visualization
+## 🎯 Results & Artifacts  
+- Key findings, accuracy/metrics  
+- Reports and presentations in `/results`  
+- Visualizations in `/figures`  
 
-## License
-MIT © 2025 Alena McCain
+## 🌐 Visualizations  
+Embed or link to plots, figures, or interactive artifacts.  
+
+## 🔁 Reproducibility  
+- Random seeds used  
+- Instructions for rerunning experiments  
+
+## 🚀 Next Steps  
+Possible extensions, limitations, or future improvements.  
+
+## 📜 License  
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.  
+
+## 👤 Contact  
+**Alena McCain** — [LinkedIn](https://www.linkedin.com/in/alena-mccain-815a09136)  
