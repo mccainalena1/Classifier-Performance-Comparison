@@ -5,7 +5,7 @@
 [![Jupyter](https://img.shields.io/badge/Notebook-Jupyter-orange)]()  
 
 ## 📖 Project Overview  
-Evaluation and comparison of multiple machine learning classifiers on benchmark datasets. Metrics such as accuracy, precision, recall, and F1-score are analyzed to highlight trade-offs between models.  
+Comparison of machine learning classifiers on benchmark datasets using scikit-learn. Includes accuracy, precision, recall, and F1-score analysis with visualizations and results.
 
 ## 📂 Repository Structure  
 ```
